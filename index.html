@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/png" href="images/Aryan Memoji.png">
+  <title>Aryan Gupta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+      <a class="navbar-brand" href="#">Aryan Gupta</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- main banner -->
+  <section class="bgimage" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+          <h2 class="hero_title">Hi, I'm Aryan</h2>
+          <p class="hero_desc">I'm passionate about building meaningful technological<br>experiences for others.</p>
+          <div class="arrow bounce"><a class="fa fa-chevron-down"></a></div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- about section -->
+  <section id="about">
+    <div class="container mt-4">
+      <h1 class="text-center">About Me</h1>
+      <div class="row mt-4">
+        <div class="col-lg-4">
+          <img src="images/Aryan Memoji.png">
+        </div>
+        <div class="col-lg-8 about-text">
+          <p>Hello! My name is Aryan and I'm a 1st Year Computer Science student studying at the University of Ottawa.
+            As someone who is extremely passionate about the intersection between human interaction and technology, I
+            wish to continue building and expanding on my interests of artificial intelligence, machine learning, and
+            full stack development to create meaningful experiences for others.
+
+          </p>
+          <p>When I'm not studying you can typically find me reading books, going for walks, or training.
+
+          </p>
+          <p>Currently, I'm looking for Summer 2023 opportunities. Feel free to send me a message at <a
+              href="mailto:ary.guptag@gmail.com"><span class="emphasize">ary.guptag@gmail.com</span></a> to get in
+            touch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio section-->
+  <section id="portfolio">
+    <div class=container mt-3>
+      <h1 class="text-center">Portfolio</h1>
+      <div class="row">
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <a href="pathify.html"><img class="card-img-top" src="images/Scene 12Pathify App Mockup.jpg"
+                alt="image mockup of pathify app" style="width:100%"></a>
+            <div class=card-body>
+              <h4 class="card-title">Pathify</h4>
+              <p class="card-text">A university resources app made to help guide students during the pandemic.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <a href="https://github.com/aryangupta2/Three-Card-Poker" target="_blank"><img class="card-img-top"
+                src="images/Three Card Poker.jpg" alt="image of cards" style="width:100%"></a>
+            <div class=card-body>
+              <h4 class="card-title">Three Card Poker</h4>
+              <p class="card-text">A three card poker game developed using Java.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <a href="https://github.com/aryangupta2/Python-Mini-Projects/blob/main/Credit%20Card%20Validator.py"
+              target="_blank"><img class="card-img-top" src="images/Credit Card Validator.JPG" alt="Card image"
+                style="width:100%"></a>
+            <div class=card-body>
+              <h4 class="card-title">Credit Card Validator</h4>
+              <p class="card-text">A credit card number validator developed using Python that emloys Luhn's Algorithm.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section id="contact">
+    <div class="container mt-3 contactContent">
+      <h1 class="text-center">Contact Me</h1>
+      <p class="contact-text">I am continuously on the lookout for new learning opportuniites. Feel free to send me an
+        email at any time at <a href="mailto:ary.guptag@gmail.com"><span
+            class="emphasize">ary.guptag@gmail.com</span></a> and let's connect.</p>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <footer id="footer">
+    <div class="container-fluid">
+      <!-- social media icons -->
+      <div class="social-icons mt-4">
+        <a href="https://www.linkedin.com/in/aryangupta16/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/aryangupta2" target="_blank"><i class="fab fa-brands fa-github"></i></a>
+      </div>
+      <p><i class="fas fa-copyright"></i> 2022 Aryan Gupta</p>
+    </div>
+
+  </footer>
+  <!-- load javascript after loading all html content -->
+  <script src="script/script.js"></script>
+
+</body>
+
+</html>
